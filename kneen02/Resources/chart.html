@@ -1,0 +1,24 @@
+<html><head><title>PAAARP</title><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="charts/raphael.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="charts/g.raphael-min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="charts/g.pie-min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+    window.onload = function() {
+        
+      var r = Raphael("chartDiv"); r.text.font = "12px Verdana, Tahoma, sans-serif";
+      r.text(150,10, 9).attr({"font-size":14}); r.text(3000, 30, 'parp').attr({"font-size":99});
+      r.piechart(150, 180, 130, [100, 3]);
+      function d() {
+          r.text(500,200,'whatt').attr({"font-size":16});
+      }
+      window.setTimeout(d, 500);
+      console.log('jj')
+    }
+  </script> 
+    </head>
+    <body> <div id="chartDiv" style="width:320px; height:320px; margin: 0"></div>
+        <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+        </canvas>
+        
+    </body>
+</html>
