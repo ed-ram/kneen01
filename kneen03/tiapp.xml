@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app 
+  xmlns:ti="http://ti.appcelerator.org">
+  <id>com.kneen03</id>
+  <name>kneen03</name>
+  <version>1.0</version>
+  <publisher>not specified</publisher>
+  <url>unspecified</url>
+  <description/>
+  <copyright>not specified</copyright>
+  <icon>appicon.png</icon>
+  <fullscreen>false</fullscreen>
+  <navbar-hidden>false</navbar-hidden>
+  <analytics>true</analytics>
+  <guid>c8f2bbad-36c3-4b94-9666-11af61f14334</guid>
+  <property name="ti.ui.defaultunit" type="string">dp</property>
+  <property name="run-on-main-thread" type="bool">true</property>
+  <ios>
+    <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+    <use-app-thinning>true</use-app-thinning>
+    <plist>
+      <dict>
+        <key>UISupportedInterfaceOrientations~iphone</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+        </array>
+        <key>UISupportedInterfaceOrientations~ipad</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+          <string>UIInterfaceOrientationPortraitUpsideDown</string>
+          <string>UIInterfaceOrientationLandscapeLeft</string>
+          <string>UIInterfaceOrientationLandscapeRight</string>
+        </array>
+        <key>UIRequiresPersistentWiFi</key>
+        <false/>
+        <key>UIPrerenderedIcon</key>
+        <false/>
+        <key>UIStatusBarHidden</key>
+        <false/>
+        <key>UIStatusBarStyle</key>
+        <string>UIStatusBarStyleDefault</string>
+      </dict>
+    </plist>
+  </ios>
+  <android 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+  </android>
+  <modules>
+    <module platform="android">hyperloop</module>
+    <module platform="iphone">hyperloop</module>
+    <module platform="commonjs">ti.cloud</module>
+  </modules>
+  <deployment-targets>
+    <target device="android">true</target>
+    <target device="ipad">true</target>
+    <target device="iphone">true</target>
+  </deployment-targets>
+  <sdk-version>7.2.0.GA</sdk-version>
+  <property name="appc-app-id" type="string">5b89c4f9c5314505f46fac2c</property>
+  <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+  <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+  <property name="acs-oauth-secret-development" type="string">r96iEy0XKbPBf1bRo046mJQejMr2LpqV</property>
+  <property name="acs-oauth-key-development" type="string">2ITwDeKw9QBkmWYFs7ibHIEON3LqGmSU</property>
+  <property name="acs-api-key-development" type="string">gAdViClLoOmzD62kufVocwWs0IsFx1Wu</property>
+  <property name="acs-username-development" type="string">appc_app_user_dev</property>
+  <property name="acs-password-development" type="string">bqSD5kgGdx9261kzWh</property>
+  <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+  <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+  <property name="acs-oauth-secret-production" type="string">2RpEkwDrevLkZDfeKhWwWlQdUV2taeOx</property>
+  <property name="acs-oauth-key-production" type="string">GVHxFDqtoG5OTdlae2CcQnrnlEghhKi1</property>
+  <property name="acs-api-key-production" type="string">IwZ6AE1kAi8ioGy9VL3XZB5F9c3EdpEj</property>
+  <property name="acs-username-production" type="string">appc_app_user</property>
+  <property name="acs-password-production" type="string">Auehndr4udVrNvyKXX</property>
+  <property name="appc-org-id" type="string">372977641322016</property>
+  <property name="appc-creator-user-id" type="string">4434db3a-3653-4c47-8d15-a8ffdcca0d6e</property>
+</ti:app>
