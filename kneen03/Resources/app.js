@@ -16,6 +16,8 @@ var tab2 = Ti.UI.createTab({
     title: 'Favorites',
     window: win2
 });
+win1.tab = tab1;
+win2.tab = tab2;
 
 tabGroup.addTab(tab1);
 tabGroup.addTab(tab2);

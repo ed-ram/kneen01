@@ -1,4 +1,4 @@
-Ti.UI.setBackgroundColor('#000');
+"use strict";Ti.UI.setBackgroundColor('#000');
 
 var tabGroup = Ti.UI.createTabGroup();
 
@@ -8,14 +8,16 @@ var win2 = require("favourites");
 var tab1 = Ti.UI.createTab({
     icon: 'cake.png',
     title: 'Recipes',
-    window:win1
-});
+    window: win1 });
+
 
 var tab2 = Ti.UI.createTab({
     icon: 'heart.png',
     title: 'Favorites',
-    window: win2
-});
+    window: win2 });
+
+win1.tab = tab1;
+win2.tab = tab2;
 
 tabGroup.addTab(tab1);
 tabGroup.addTab(tab2);

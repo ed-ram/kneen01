@@ -3,5 +3,6 @@ module.exports = (function(){
         title: 'favourites',
         backgroundColor: '#fff'
     });
+    var db = require('./database');
     return win
 })();
