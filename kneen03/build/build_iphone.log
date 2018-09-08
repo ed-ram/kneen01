@@ -1,5 +1,5 @@
 
-2018-9-7 22:39:09
+2018-9-8 13:54:20
 
 Operating System
   Name                        = Mac OS X
@@ -21,7 +21,7 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /Users/utto/.nvm/versions/node/v8.9.4/bin/node /Users/utto/.appcelerator/install/7.0.4/package/node_modules/titanium/lib/titanium.js build -p ios --device-id 78FCFA78-67B5-4497-ACD8-74997923606F --config-file /var/folders/qs/lnbn77ls7vncx54nlc732s_80000gp/T/build-1536356347940.json --log-level info --no-banner --project-dir /Users/utto/Documents/kneenBookExcercises/kneen01/kneen03
+  /Users/utto/.nvm/versions/node/v8.9.4/bin/node /Users/utto/.appcelerator/install/7.0.4/package/node_modules/titanium/lib/titanium.js build -p ios --device-id 78FCFA78-67B5-4497-ACD8-74997923606F --config-file /var/folders/qs/lnbn77ls7vncx54nlc732s_80000gp/T/build-1536411258488.json --log-level info --no-banner --project-dir /Users/utto/Documents/kneenBookExcercises/kneen01/kneen03
 
 [TRACE]  [ioslib] Validating iOS Simulator UDID 78FCFA78-67B5-4497-ACD8-74997923606F
 [TRACE]  [ioslib] Found iOS Simulator UDID 78FCFA78-67B5-4497-ACD8-74997923606F
@@ -84,7 +84,7 @@ Command
 [DEBUG]  [Hyperloop] No CocoaPods Podfile found. Skipping ...
 [TRACE]  offline build file /var/folders/qs/lnbn77ls7vncx54nlc732s_80000gp/T/build-367b2ff75518448216bf1c50affe00186b9c592b.json
 [TRACE]  online 1
-[TRACE]  optimizing build, last build was 1632.084 sec ago
+[TRACE]  optimizing build, last build was 56542.664 sec ago
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
 [TRACE]  Adding 1 native module library
@@ -178,9 +178,11 @@ Command
 [DEBUG]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen03/build/iphone/build/Products/Debug-iphonesimulator/kneen03.app/app.js
 [TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen03/build/iphone/build/Products/Debug-iphonesimulator/kneen03.app/database.js
 [DEBUG]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen03/build/iphone/build/Products/Debug-iphonesimulator/kneen03.app/database.js
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen03/build/iphone/build/Products/Debug-iphonesimulator/kneen03.app/detail.js
+[DEBUG]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen03/build/iphone/build/Products/Debug-iphonesimulator/kneen03.app/detail.js
 [TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen03/build/iphone/build/Products/Debug-iphonesimulator/kneen03.app/favourites.js
 [DEBUG]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen03/build/iphone/build/Products/Debug-iphonesimulator/kneen03.app/favourites.js
-[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen03/build/iphone/build/Products/Debug-iphonesimulator/kneen03.app/recipes.js
+[DEBUG]  Copying and minifying /Users/utto/Documents/kneenBookExcercises/kneen01/kneen03/Resources/recipes.js => /Users/utto/Documents/kneenBookExcercises/kneen01/kneen03/build/iphone/build/Products/Debug-iphonesimulator/kneen03.app/recipes.js
 [DEBUG]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen03/build/iphone/build/Products/Debug-iphonesimulator/kneen03.app/recipes.js
 [TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen03/build/iphone/build/Products/Debug-iphonesimulator/kneen03.app/ti.cloud/ti.cloud.js
 [DEBUG]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen03/build/iphone/build/Products/Debug-iphonesimulator/kneen03.app/ti.cloud/ti.cloud.js
@@ -202,7 +204,7 @@ Command
 [INFO]   Skipping Hyperloop compile, no usage found ...
 [INFO]   Finished Hyperloop assembly in 0 seconds
 [INFO]   Skipping xcodebuild
-[INFO]   Finished building the application in 1s 121ms
+[INFO]   Finished building the application in 1s 185ms
 [INFO]   Launching iOS Simulator
 [TRACE]  [ioslib] Selected iOS Simulator: iPhone 8
 [TRACE]  [ioslib]   UDID    = 78FCFA78-67B5-4497-ACD8-74997923606F

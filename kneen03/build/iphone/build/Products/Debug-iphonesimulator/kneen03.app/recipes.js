@@ -5,7 +5,7 @@
 
     var db = require('./database');
 
-    function refresh() {
+    function refresh(cb) {
         var data = [];
         var xhr = Ti.Network.createHTTPClient();
         var searchBar = Ti.UI.createSearchBar({
@@ -31,6 +31,23 @@
             search: searchBar,
             filterAttribute: 'filter' });
 
+
+
+        if (Ti.Platform.name === "iOS") {
+            var pullToRefresh = Ti.UI.createRefreshControl({
+                tintColor: "#cc0953" });
+
+            tblRecipes.refreshControl = pullToRefresh;
+
+            pullToRefresh.addEventListener('refreshstart', function (evt) {
+                refresh(function () {
+                    console.log('pullToRefresh objects refreshstart event handler');
+                    pullToRefresh.endRefreshing();
+                });
+            });
+        } else if (Ti.Platform.name === "android") {
+            win.addEventListener("focus", refresh);
+        }
         win.add(tblRecipes);
         xhr.onload = function () {
             var json = JSON.parse(this.responseText);
@@ -83,7 +100,7 @@
             };
             tblRecipes.addEventListener('click', function (evt) {
                 var data = evt.row.data;
-                /*console.log('data var from the click event callback: '+JSON.stringify(data));*/
+                //console.log('data var from the click event callback: '+JSON.stringify(data));*/
                 var detailWindow = Ti.UI.createWindow({
                     title: data.title,
                     link: data.link,
@@ -92,18 +109,19 @@
                 var favButton = Ti.UI.createButton({
                     title: 'Add Fave',
                     color: '#000',
-                    left: 10,
-                    top: 20,
+                    right: 10,
+                    top: 10,
                     width: Ti.UI.SIZE,
                     height: Ti.UI.SIZE });
 
                 favButton.addEventListener('click', function (evt) {
                     var newId = db.insertFavorite(data.title, data.description, data.link);
-                    console.log('Newly created favourite id = ' + newId);
+                    console.log('Newly created favourite id = \'+' + newId);
                     detailWindow.id = newId;
                     alert('added to favs');
                 });
                 detailWindow.add(favButton);
+
                 var deleteButton = Ti.UI.createButton({
                     title: 'Remove Fave',
                     color: '#000',
@@ -114,8 +132,8 @@
 
                 deleteButton.addEventListener('click', function (evt) {
                     db.deleteFavorite(data.title);
-                    console.log('Deleted ' + db.database.rowsAffected + ' fav records\
-            (id ' + data.id + ')');
+                    console.log('Deleted ' + db.database.rowsAffected + ' fav records            (id ' +
+                    data.id + ')');
                     alert('Removed');
                 });
                 detailWindow.add(deleteButton);
@@ -131,12 +149,17 @@
                 win.tab.open(detailWindow);
             });
             tblRecipes.data = data;
+
         };
         xhr.onerror = function () {
             console.log(this.status + ' - ' + this.statusText);
         };
         xhr.open('GET', 'http://localhost:8080/');
         xhr.send();
+
+        if (typeof cb === 'function') {
+            cb();
+        }
     };
     refresh();
     return win;

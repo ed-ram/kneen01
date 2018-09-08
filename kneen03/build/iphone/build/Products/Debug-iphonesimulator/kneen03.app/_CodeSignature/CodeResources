@@ -58,7 +58,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		fsRc0pbjdRmODVpXi6gTsM8uRoU=
+		HCioXUU7norskO5ey8+DqZ9kSoU=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		WZUnlYO/JCnlYCCIXxlkOF+j7+k=
+		pRM+XqXKGfEUxgyf1ruPNWEF3jk=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		HXg9Hy2eCNm5MVskdWoXUrQjbAs=
+		8oiqey1fFlpG1v/lwScRB+ZjM0g=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -130,15 +130,19 @@
 		</data>
 		<key>app.js</key>
 		<data>
-		x95UazZBXGRzFMEyns8D0qctg4Y=
+		Mm/NA9bLqz7NPI7t3eCCv3sgvu0=
 		</data>
 		<key>database.js</key>
 		<data>
-		XAfa6Uc+ZOteefvhgp0DJ/WGFx4=
+		W6PZQ8MqohgksIR4SpRGIpbNZR0=
+		</data>
+		<key>detail.js</key>
+		<data>
+		7afmc/PEg9y7BFyroiPLfArHQRc=
 		</data>
 		<key>favourites.js</key>
 		<data>
-		Ii+tHRb34xGGZeaGdjsL8iNL75g=
+		eEhQMxz926qMLzdCNDTywrWesXU=
 		</data>
 		<key>modules/ui/images/badge.png</key>
 		<data>
@@ -154,7 +158,7 @@
 		</data>
 		<key>recipes.js</key>
 		<data>
-		Jg6iKMO0IRGCyGvwi9ixhH7xNPY=
+		LVaYD5Fv8QZv1aaXshEFMs4qibg=
 		</data>
 		<key>ti.cloud/LICENSE</key>
 		<data>
@@ -170,7 +174,7 @@
 		</data>
 		<key>ti.cloud/ti.cloud.js</key>
 		<data>
-		kBObHK8+LORFkhEJak117BUw/YM=
+		oDZrm9V1gQ4JVkmVz6rNTxr5uKs=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -322,11 +326,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fsRc0pbjdRmODVpXi6gTsM8uRoU=
+			HCioXUU7norskO5ey8+DqZ9kSoU=
 			</data>
 			<key>hash2</key>
 			<data>
-			UH4N9hebsh4KXIN+/26eAK/r/AXV24JOkUjGqW5gNto=
+			tUyqp5UI1qiM6yLJ7cPhKTpQLnbrtIwVzndkfo6VC4E=
 			</data>
 		</dict>
 		<key>LaunchImage-1100-Landscape-2436h@3x.png</key>
@@ -454,11 +458,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WZUnlYO/JCnlYCCIXxlkOF+j7+k=
+			pRM+XqXKGfEUxgyf1ruPNWEF3jk=
 			</data>
 			<key>hash2</key>
 			<data>
-			TFNyjVhFXv9v2GRdNIs/vAVek52vggVbbPZ2heg+XBw=
+			XRJ1OyhopzUKrj7hgmRIXdQ95laBl87Fa5UsU4GRzUM=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -476,11 +480,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HXg9Hy2eCNm5MVskdWoXUrQjbAs=
+			8oiqey1fFlpG1v/lwScRB+ZjM0g=
 			</data>
 			<key>hash2</key>
 			<data>
-			RqSwuG9bHzy+QhrwokhXHemPvcHXE/6wGOV/5zPLZeM=
+			fDD4xPM2AhPoZymFlmv01Z2KHtj0Is/Ndl1cT+aDikY=
 			</data>
 		</dict>
 		<key>_app_props_.json</key>
@@ -498,33 +502,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			x95UazZBXGRzFMEyns8D0qctg4Y=
+			Mm/NA9bLqz7NPI7t3eCCv3sgvu0=
 			</data>
 			<key>hash2</key>
 			<data>
-			eG4kDy8+UAC03TkfOs0c+Jor8Q19sfqYklXFf/U0H4M=
+			KoGMbOlrbSqaMV44tckwJ4ciCoZMnyN9cLHD+etlhZk=
 			</data>
 		</dict>
 		<key>database.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XAfa6Uc+ZOteefvhgp0DJ/WGFx4=
+			W6PZQ8MqohgksIR4SpRGIpbNZR0=
 			</data>
 			<key>hash2</key>
 			<data>
-			4OFWFOEc3vsxXmKVbvbEN6JnAYvAxS17JvEhIMqd8So=
+			KAv0f1KDjgl55JBCJ0WTCygy2Kp2vXXJEgO+47jR+iU=
+			</data>
+		</dict>
+		<key>detail.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7afmc/PEg9y7BFyroiPLfArHQRc=
+			</data>
+			<key>hash2</key>
+			<data>
+			puKAEf00pJHkqvzQ93rRHbz4rayKYpyr/Za72LVqAus=
 			</data>
 		</dict>
 		<key>favourites.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ii+tHRb34xGGZeaGdjsL8iNL75g=
+			eEhQMxz926qMLzdCNDTywrWesXU=
 			</data>
 			<key>hash2</key>
 			<data>
-			xU/B6S4CLBBnALNhgS+lrK047BfJr9tL0jR7kjKk2XM=
+			e8p3FlsigVhP9Jjh/4Q71DBZy6CMlO9VOwso65iyeCI=
 			</data>
 		</dict>
 		<key>modules/ui/images/badge.png</key>
@@ -564,11 +579,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Jg6iKMO0IRGCyGvwi9ixhH7xNPY=
+			LVaYD5Fv8QZv1aaXshEFMs4qibg=
 			</data>
 			<key>hash2</key>
 			<data>
-			a0kkjzr4kONFAVATonlgJTXLWSKHG9sJhFa+lPi1eBM=
+			kChXYtq4aUHRlMKCelk7zDii04QBsV0Jj+IymVL4Yf4=
 			</data>
 		</dict>
 		<key>ti.cloud/LICENSE</key>
@@ -608,11 +623,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kBObHK8+LORFkhEJak117BUw/YM=
+			oDZrm9V1gQ4JVkmVz6rNTxr5uKs=
 			</data>
 			<key>hash2</key>
 			<data>
-			tFcSTocuecyDHzXMerFnUbzeOBWYpLYY4k7sGKpqX+c=
+			Im6EVhdXyvFf8g3JEvhdbwZYMZFmJYyeO32qswlQQ8U=
 			</data>
 		</dict>
 	</dict>

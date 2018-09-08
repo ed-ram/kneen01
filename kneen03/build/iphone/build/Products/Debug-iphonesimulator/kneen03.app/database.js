@@ -8,9 +8,33 @@
         return db.database.lastInsertRowId;
     };
     db.deleteFavorite = function (title) {
-        var sql = "DELETE FROM favorites WHERE title = '" + title +
-        "'";
+        var sql = 'DELETE FROM favorites WHERE title = \'' + title + '\'';
         db.database.execute(sql);
+    };
+    /*
+       // returns an array of results from db 
+       */
+    db.getFavorites = function () {
+        var sql = "SELECT * FROM favorites ORDER BY title ASC";
+        var results = [];
+        var resultSet = db.database.execute(sql);
+
+        while (resultSet.isValidRow()) {
+            results.push({
+                id: resultSet.fieldByName('id'),
+                title: resultSet.fieldByName('title'),
+                data: {
+                    title: resultSet.fieldByName('title'),
+                    description: resultSet.fieldByName('description'),
+                    link: resultSet.fieldByName('link'),
+                    color: "#000",
+                    height: 40 } });
+
+
+            resultSet.next();
+        }
+        resultSet.close(); // gotta close to avoid memory leak
+        return results;
     };
     return db;
 }();
