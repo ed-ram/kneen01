@@ -1,0 +1,219 @@
+
+2018-9-9 23:24:01
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.13.5
+  Architecture                = 64bit
+  # CPUs                      = 8
+  Memory                      = 17179869184
+
+Node.js
+  Node.js Version             = 8.9.4
+  npm Version                 = 5.6.0
+
+Titanium CLI
+  CLI Version                 = 5.1.1
+
+Titanium SDK
+  SDK Version                 = 7.2.0.GA
+  SDK Path                    = /Users/utto/Library/Application Support/Titanium/mobilesdk/osx/7.2.0.GA
+  Target Platform             = iphone
+
+Command
+  /Users/utto/.nvm/versions/node/v8.9.4/bin/node /Users/utto/.appcelerator/install/7.0.4/package/node_modules/titanium/lib/titanium.js build -p ios --device-id 3B06D8E7-D1D5-4E37-8837-884756B50B3E --config-file /var/folders/qs/lnbn77ls7vncx54nlc732s_80000gp/T/build-1536531840039.json --log-level info --no-banner --project-dir /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04
+
+[TRACE]  [ioslib] Validating iOS Simulator UDID 3B06D8E7-D1D5-4E37-8837-884756B50B3E
+[TRACE]  [ioslib] Found iOS Simulator UDID 3B06D8E7-D1D5-4E37-8837-884756B50B3E
+[TRACE]  [ioslib] Selected iOS Simulator: iPad Air
+[TRACE]  [ioslib]   UDID    = 3B06D8E7-D1D5-4E37-8837-884756B50B3E
+[TRACE]  [ioslib]   iOS     = 11.2
+[TRACE]  [ioslib] Autoselected Xcode: 9.2
+[DEBUG]  Detecting modules in /Users/utto/Library/Application Support/Titanium/modules
+[DEBUG]  Detected android module: facebook 7.1.0 @ /Users/utto/Library/Application Support/Titanium/modules/android/facebook/7.1.0
+[DEBUG]  Detected android module: hyperloop 3.0.3 @ /Users/utto/Library/Application Support/Titanium/modules/android/hyperloop/3.0.3
+[DEBUG]  Detected android module: hyperloop 3.0.5 @ /Users/utto/Library/Application Support/Titanium/modules/android/hyperloop/3.0.5
+[DEBUG]  Detected android module: ti.cloudpush 5.1.0 @ /Users/utto/Library/Application Support/Titanium/modules/android/ti.cloudpush/5.1.0
+[DEBUG]  Detected android module: ti.identity 2.1.0 @ /Users/utto/Library/Application Support/Titanium/modules/android/ti.identity/2.1.0
+[DEBUG]  Detected android module: ti.map 4.1.1 @ /Users/utto/Library/Application Support/Titanium/modules/android/ti.map/4.1.1
+[DEBUG]  Detected android module: ti.playservices 11.0.40 @ /Users/utto/Library/Application Support/Titanium/modules/android/ti.playservices/11.0.40
+[DEBUG]  Detected android module: ti.touchid 3.0.1 @ /Users/utto/Library/Application Support/Titanium/modules/android/ti.touchid/3.0.1
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.11 @ /Users/utto/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.11
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 2.1.0 @ /Users/utto/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/2.1.0
+[DEBUG]  Detected iphone module: facebook 5.7.0 @ /Users/utto/Library/Application Support/Titanium/modules/iphone/facebook/5.7.0
+[DEBUG]  Detected iphone module: hyperloop 3.0.3 @ /Users/utto/Library/Application Support/Titanium/modules/iphone/hyperloop/3.0.3
+[DEBUG]  Detected iphone module: hyperloop 3.0.5 @ /Users/utto/Library/Application Support/Titanium/modules/iphone/hyperloop/3.0.5
+[DEBUG]  Detected iphone module: ti.coremotion 2.0.1 @ /Users/utto/Library/Application Support/Titanium/modules/iphone/ti.coremotion/2.0.1
+[DEBUG]  Detected iphone module: ti.identity 1.0.3 @ /Users/utto/Library/Application Support/Titanium/modules/iphone/ti.identity/1.0.3
+[DEBUG]  Detected iphone module: ti.map 3.0.2 @ /Users/utto/Library/Application Support/Titanium/modules/iphone/ti.map/3.0.2
+[DEBUG]  Detected iphone module: ti.safaridialog 1.1.1 @ /Users/utto/Library/Application Support/Titanium/modules/iphone/ti.safaridialog/1.1.1
+[DEBUG]  Detected iphone module: ti.touchid 2.1.4 @ /Users/utto/Library/Application Support/Titanium/modules/iphone/ti.touchid/2.1.4
+[DEBUG]  Detected windows module: hyperloop 3.0.3 @ /Users/utto/Library/Application Support/Titanium/modules/windows/hyperloop/3.0.3
+[DEBUG]  Detected windows module: hyperloop 3.0.5 @ /Users/utto/Library/Application Support/Titanium/modules/windows/hyperloop/3.0.5
+[DEBUG]  Looking for Titanium module id=ti.map version=latest platform=iphone deploy-type=development
+[INFO]   Found Titanium module id=ti.map version=3.0.2 platform=iphone deploy-type=development path=/Users/utto/Library/Application Support/Titanium/modules/iphone/ti.map/3.0.2
+[DEBUG]  Looking for Titanium module id=hyperloop version=latest platform=iphone deploy-type=development
+[INFO]   Found Titanium module id=hyperloop version=3.0.5 platform=iphone deploy-type=development path=/Users/utto/Library/Application Support/Titanium/modules/iphone/hyperloop/3.0.5
+[DEBUG]  Looking for Titanium module id=ti.cloud version=latest platform=commonjs deploy-type=development
+[INFO]   Found Titanium module id=ti.cloud version=3.2.11 platform=commonjs deploy-type=development path=/Users/utto/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.11
+[DEBUG]  No project level plugins to load
+[TRACE]  Snapshotting build directory
+[DEBUG]  Checking if log server port 35712 is available
+[DEBUG]  Log server port 35712 is in use, testing if it's the app we're building
+[DEBUG]  The log server port is being used by the app being built, continuing
+[DEBUG]  Titanium SDK iOS directory: /Users/utto/Library/Application Support/Titanium/mobilesdk/osx/7.2.0.GA/iphone
+[INFO]   Deploy type: development
+[INFO]   Building for target: simulator
+[INFO]   Building using iOS SDK: 11.2
+[INFO]   Building for iOS Simulator: iPad Air
+[DEBUG]  UDID: 3B06D8E7-D1D5-4E37-8837-884756B50B3E
+[DEBUG]  Simulator type: ipad
+[DEBUG]  Simulator version: 11.2
+[INFO]   Building for device family: universal
+[DEBUG]  Setting Xcode target to Debug
+[DEBUG]  Setting Xcode build OS to iphonesimulator
+[DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
+[DEBUG]  iOS WWDR certificate: installed
+[INFO]   Team ID: n/a
+[INFO]   Minimum iOS version: 8.0
+[INFO]   Logging enabled on port 35712
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Set to copy files instead of symlinking
+[INFO]   Initializing the build directory
+[TRACE]  Starting third-party framework detection
+[TRACE]  Scanning /Users/utto/Library/Application Support/Titanium/modules/iphone/ti.map/3.0.2/platform for frameworks
+[DEBUG]  Using Hyperloop library -> libhyperloop-jscore.a
+[DEBUG]  [Hyperloop] No CocoaPods Podfile found. Skipping ...
+[TRACE]  offline build file /var/folders/qs/lnbn77ls7vncx54nlc732s_80000gp/T/build-241623b3abdf6b22351baf30f1eeb1efbaa8d6b6.json
+[TRACE]  online 1
+[TRACE]  optimizing build, last build was 359.853 sec ago
+[INFO]   Creating Xcode project
+[TRACE]  Removing pre-compile phase
+[TRACE]  Adding 2 native module libraries
+[TRACE]  No extensions to add
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/kneen04.xcodeproj/project.pbxproj
+[INFO]   Creating Entitlements.plist
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/kneen04.entitlements
+[INFO]   Creating Info.plist
+[INFO]   Disabling ATS
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Info.plist
+[INFO]   Creating main.m
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/main.m
+[INFO]   Creating Xcode config files
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/project.xcconfig
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/module.xcconfig
+[INFO]   Copying Titanium libraries
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/lib/libTiCore.a
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/lib/libtiverify.a
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/lib/libti_ios_debugger.a
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/lib/libti_ios_profiler.a
+[INFO]   Copying Titanium iOS files
+[TRACE]  Skipping Classes/ApplicationRouting.m, it'll be processed later
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/kneen04_Prefix.pch
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/kneen04.xcodeproj/xcshareddata/xcschemes/kneen04.xcscheme
+[INFO]   Installing default LaunchScreen.storyboard
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/LaunchScreen.storyboard
+[INFO]   Creating debugger and profiler plists
+[DEBUG]  Skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/build/Products/Debug-iphonesimulator/kneen04.app/debugger.plist
+[DEBUG]  Skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/build/Products/Debug-iphonesimulator/kneen04.app/profiler.plist
+[INFO]   Analyzing Resources directory
+[INFO]   Analyzing platform files
+[INFO]   Analyzing module files
+[INFO]   Analyzing localized launch images
+[INFO]   Analyzing CommonJS modules
+[INFO]   Analyzing CommonJS module: ti.cloud
+[INFO]   Creating asset catalog
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/Contents.json
+[INFO]   Creating app icon set
+[TRACE]  Found generated 29x29 app icon: /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small.png
+[TRACE]  Found generated 58x58 app icon: /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@2x.png
+[TRACE]  Found generated 87x87 app icon: /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@3x.png
+[TRACE]  Found generated 40x40 app icon: /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40.png
+[TRACE]  Found generated 80x80 app icon: /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@2x.png
+[TRACE]  Found generated 120x120 app icon: /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@3x.png
+[TRACE]  Found generated 120x120 app icon: /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@2x.png
+[TRACE]  Found generated 180x180 app icon: /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@3x.png
+[TRACE]  Found generated 76x76 app icon: /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76.png
+[TRACE]  Found generated 152x152 app icon: /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76@2x.png
+[TRACE]  Found generated 167x167 app icon: /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-83.5@2x.png
+[TRACE]  Found generated 1024x1024 app icon: /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Marketing.png
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/AppIcon.appiconset/Contents.json
+[INFO]   Creating launch logo image set
+[TRACE]  Found generated 320x320 launch logo: /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo~iphone.png
+[TRACE]  Found generated 374x374 launch logo: /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@2x~iphone.png
+[TRACE]  Found generated 621x621 launch logo: /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@3x~iphone.png
+[TRACE]  Found generated 384x384 launch logo: /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo~ipad.png
+[TRACE]  Found generated 1024x1024 launch logo: /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@2x~ipad.png
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/LaunchLogo.imageset/Contents.json
+[INFO]   Creating launch image set
+[DEBUG]  Unsupported launch image Resources/iphone/Default.png, skipping
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
+[INFO]   Creating assets image set
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/f58b0d04f3ad524648680e9940fb4e77323cb9bb.imageset/Contents.json
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/cb2e9b637cf08b6cee5c34a9d42ed14216474da9.imageset/Contents.json
+[DEBUG]  Copying resources
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/build/Products/Debug-iphonesimulator/kneen04.app/modules/ti.map/README
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/build/Products/Debug-iphonesimulator/kneen04.app/ti.cloud/LICENSE
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/build/Products/Debug-iphonesimulator/kneen04.app/ti.cloud/manifest
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/build/Products/Debug-iphonesimulator/kneen04.app/ti.cloud/package.json
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-2436h@3x.png
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape.png
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@2x.png
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-2436h@3x.png
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/f58b0d04f3ad524648680e9940fb4e77323cb9bb.imageset/tab1.png
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/f58b0d04f3ad524648680e9940fb4e77323cb9bb.imageset/tab1@2x.png
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/f58b0d04f3ad524648680e9940fb4e77323cb9bb.imageset/tab1@3x.png
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/cb2e9b637cf08b6cee5c34a9d42ed14216474da9.imageset/tab2.png
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/cb2e9b637cf08b6cee5c34a9d42ed14216474da9.imageset/tab2@2x.png
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Assets.xcassets/cb2e9b637cf08b6cee5c34a9d42ed14216474da9.imageset/tab2@3x.png
+[DEBUG]  Copying CSS files
+[INFO]   Processing JavaScript files
+[DEBUG]  Copying and minifying /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/Resources/app.js => /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/build/Products/Debug-iphonesimulator/kneen04.app/app.js
+[DEBUG]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/build/Products/Debug-iphonesimulator/kneen04.app/app.js
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/build/Products/Debug-iphonesimulator/kneen04.app/colors.js
+[DEBUG]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/build/Products/Debug-iphonesimulator/kneen04.app/colors.js
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/build/Products/Debug-iphonesimulator/kneen04.app/ti.cloud/ti.cloud.js
+[DEBUG]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/build/Products/Debug-iphonesimulator/kneen04.app/ti.cloud/ti.cloud.js
+[INFO]   Writing app properties
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/build/Products/Debug-iphonesimulator/kneen04.app/_app_props_.json
+[DEBUG]  Using default application routing
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Classes/ApplicationRouting.m
+[INFO]   Writing i18n files
+[DEBUG]  No i18n files to process
+[INFO]   Processing Titanium symbols
+[DEBUG]  Processing Titanium namespace resources
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/build/Products/Debug-iphonesimulator/kneen04.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/build/Products/Debug-iphonesimulator/kneen04.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/build/Products/Debug-iphonesimulator/kneen04.app/modules/ui/images/photoDefault.png
+[TRACE]  No change, skipping /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04/build/iphone/Classes/defines.h
+[INFO]   Removing files
+[DEBUG]  Removing empty directories
+[INFO]   Starting Hyperloop assembly
+[INFO]   Skipping Hyperloop compile, no usage found ...
+[INFO]   Finished Hyperloop assembly in 0 seconds
+[INFO]   Skipping xcodebuild
+[INFO]   Finished building the application in 1s 153ms
+[INFO]   Launching iOS Simulator
+[TRACE]  [ioslib] Selected iOS Simulator: iPad Air
+[TRACE]  [ioslib]   UDID    = 3B06D8E7-D1D5-4E37-8837-884756B50B3E
+[TRACE]  [ioslib]   iOS     = 11.2
+[TRACE]  [ioslib] Autoselected Xcode: 9.2
+[TRACE]  [ioslib] Checking if the simulator /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator is already running
+[TRACE]  [ioslib] Simulator is running (pid 43233)
+[TRACE]  [ioslib] Waiting for simulator to boot...
+[TRACE]  [ioslib] Simulator is booted!
+[TRACE]  [ioslib] iPad Air Simulator already running with the correct UDID
+[TRACE]  [ioslib] Tailing iPad Air Simulator system log: /Users/utto/Library/Logs/CoreSimulator/3B06D8E7-D1D5-4E37-8837-884756B50B3E/system.log
+[TRACE]  [ioslib] Running: osascript "/Users/utto/Library/Application Support/Titanium/mobilesdk/osx/7.2.0.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
+[TRACE]  [ioslib] iPad Air Simulator successfully focused
+[TRACE]  [ioslib] Installing the app
+[TRACE]  [ioslib] App launched
+[TRACE]  [ioslib] Trying to connect to log server port 35712...
