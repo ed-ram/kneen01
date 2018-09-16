@@ -5,8 +5,4 @@
 
     light: {
         front: 'green',
-        back: 'white' },
-
-    poop: {
-        front: 'red',
-        back: 'yellow' } };
+        back: 'white' } };

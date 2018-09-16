@@ -1,5 +1,5 @@
 
-2018-9-9 23:24:01
+2018-9-11 23:47:00
 
 Operating System
   Name                        = Mac OS X
@@ -21,7 +21,7 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /Users/utto/.nvm/versions/node/v8.9.4/bin/node /Users/utto/.appcelerator/install/7.0.4/package/node_modules/titanium/lib/titanium.js build -p ios --device-id 3B06D8E7-D1D5-4E37-8837-884756B50B3E --config-file /var/folders/qs/lnbn77ls7vncx54nlc732s_80000gp/T/build-1536531840039.json --log-level info --no-banner --project-dir /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04
+  /Users/utto/.nvm/versions/node/v8.9.4/bin/node /Users/utto/.appcelerator/install/7.0.4/package/node_modules/titanium/lib/titanium.js build -p ios --device-id 3B06D8E7-D1D5-4E37-8837-884756B50B3E --config-file /var/folders/qs/lnbn77ls7vncx54nlc732s_80000gp/T/build-1536706018404.json --log-level info --no-banner --project-dir /Users/utto/Documents/kneenBookExcercises/kneen01/kneen04
 
 [TRACE]  [ioslib] Validating iOS Simulator UDID 3B06D8E7-D1D5-4E37-8837-884756B50B3E
 [TRACE]  [ioslib] Found iOS Simulator UDID 3B06D8E7-D1D5-4E37-8837-884756B50B3E
@@ -85,9 +85,9 @@ Command
 [TRACE]  Scanning /Users/utto/Library/Application Support/Titanium/modules/iphone/ti.map/3.0.2/platform for frameworks
 [DEBUG]  Using Hyperloop library -> libhyperloop-jscore.a
 [DEBUG]  [Hyperloop] No CocoaPods Podfile found. Skipping ...
-[TRACE]  offline build file /var/folders/qs/lnbn77ls7vncx54nlc732s_80000gp/T/build-241623b3abdf6b22351baf30f1eeb1efbaa8d6b6.json
+[TRACE]  offline build file /var/folders/qs/lnbn77ls7vncx54nlc732s_80000gp/T/build-58561e85d8549b868e18e0fced79814527b57fa3.json
 [TRACE]  online 1
-[TRACE]  optimizing build, last build was 359.853 sec ago
+[TRACE]  optimizing build, last build was 11268.27 sec ago
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
 [TRACE]  Adding 2 native module libraries
@@ -200,7 +200,7 @@ Command
 [INFO]   Skipping Hyperloop compile, no usage found ...
 [INFO]   Finished Hyperloop assembly in 0 seconds
 [INFO]   Skipping xcodebuild
-[INFO]   Finished building the application in 1s 153ms
+[INFO]   Finished building the application in 1s 160ms
 [INFO]   Launching iOS Simulator
 [TRACE]  [ioslib] Selected iOS Simulator: iPad Air
 [TRACE]  [ioslib]   UDID    = 3B06D8E7-D1D5-4E37-8837-884756B50B3E

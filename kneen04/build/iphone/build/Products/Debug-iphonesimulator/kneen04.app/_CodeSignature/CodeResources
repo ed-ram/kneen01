@@ -58,7 +58,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		EJIeRqxUdIfugnwalP2bebkXoPM=
+		NQ6SlFxkCL2PnZR1Gyfp+AGdMHc=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		PNyNr2P2iJLxeAUphAkf4nWXtDU=
+		nEin0wEIyRgH+sKpDkgc1Yv+P/8=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		g47mNYnCn1q+uCeLioztpVKKpps=
+		fJkguzRBl8WFMTvtucCoUgAiuV0=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -130,7 +130,11 @@
 		</data>
 		<key>app.js</key>
 		<data>
-		d+1frcBZcU3hU5w9JkoA46zXiz4=
+		kcBLW7XhzXh+hrakBfQ8CkdLHPM=
+		</data>
+		<key>colors.js</key>
+		<data>
+		rEFNSgPmQIm43VK1ux2hStrPUTg=
 		</data>
 		<key>modules/ti.map/README</key>
 		<data>
@@ -314,11 +318,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EJIeRqxUdIfugnwalP2bebkXoPM=
+			NQ6SlFxkCL2PnZR1Gyfp+AGdMHc=
 			</data>
 			<key>hash2</key>
 			<data>
-			5axad5G6hj5IuOYsISCaAzv7SpBdWf2pkCKm72DX5ik=
+			EjcvpzJP88Sg+JyYvFdhZwMupT1W/JH4yQBXgl/NYHo=
 			</data>
 		</dict>
 		<key>LaunchImage-1100-Landscape-2436h@3x.png</key>
@@ -446,11 +450,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PNyNr2P2iJLxeAUphAkf4nWXtDU=
+			nEin0wEIyRgH+sKpDkgc1Yv+P/8=
 			</data>
 			<key>hash2</key>
 			<data>
-			hLNt1DrRxxEs5r0Ui5ZE9z3/U0gufzuwIfP+a/cSoJY=
+			LR/xuW51m7nMxPylZKxYaQjBZ87YoRU9dyq5JoOkUvw=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -468,11 +472,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			g47mNYnCn1q+uCeLioztpVKKpps=
+			fJkguzRBl8WFMTvtucCoUgAiuV0=
 			</data>
 			<key>hash2</key>
 			<data>
-			1HK3/i2Ygy5shYZUK4uUMqWyk1FL7nDHqTJmKjOgCJM=
+			NWvyBrouoQIIUhMSaledneE9zUnWx71fBampiHcvb8k=
 			</data>
 		</dict>
 		<key>_app_props_.json</key>
@@ -490,11 +494,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			d+1frcBZcU3hU5w9JkoA46zXiz4=
+			kcBLW7XhzXh+hrakBfQ8CkdLHPM=
 			</data>
 			<key>hash2</key>
 			<data>
-			C8JS2XX9pF3DKxXLxCpVl5kc0UpSYnZjK4AznfUTQbw=
+			DsFaKdNc84dcqBVHEHOlFb4iL/6pJwel9eSDrGsuIiU=
+			</data>
+		</dict>
+		<key>colors.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rEFNSgPmQIm43VK1ux2hStrPUTg=
+			</data>
+			<key>hash2</key>
+			<data>
+			a97BPSs4CzU4IrkmNzSNvdY+z4N+BB5npMEoGcjqZCs=
 			</data>
 		</dict>
 		<key>modules/ti.map/README</key>
